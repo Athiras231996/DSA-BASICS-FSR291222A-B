@@ -1,0 +1,15 @@
+[()]
+]{}[()()]
+[(])
+{}[()()][
+1.If encounters any open bracket->push this to stack
+2.If encounters any closing bracket
+      Pop the last or peek element from the stack
+      Compare popped element with closed bracket from expression
+3.if its matches go ahead and complete expression->it’s balanced
+4.if its doesn’t match then stop execution and print it’s not bala
+
+
+Balanced
+1.Exp should exhausted
+2.Stack should be empty
