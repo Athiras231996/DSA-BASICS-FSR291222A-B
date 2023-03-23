@@ -1,0 +1,45 @@
+// Insertion
+
+// 1.Insertion at Beginning
+
+// Newnode.next->head
+// Head->newnode
+
+// 2.Insertion at end:
+
+// If(p.next==null){
+// p.next->newnode
+// newnode.next=null
+// }
+// else{
+// Go to next node
+
+// 3.Insertion at inbetween
+
+// data=3
+// if(p==data){
+// p.next->newnode
+// newnode.next->p.next
+// }else{
+// Go to next node
+
+// Deletion
+
+// 1.Detetion at Beginning
+
+// Head->head.next
+
+// 2.Deletion at End
+
+// p.next->null
+
+// 3.Deletion at Inbetween
+
+// Data=3
+// If(p.next==data){
+// p.next=p.next.next
+// }
+// 1->p.next=2, //2==3
+// 2->p.next=3//3==3
+
+
