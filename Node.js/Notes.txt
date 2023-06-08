@@ -1,0 +1,10 @@
+NodeJs->server side scripting Language
+ASynchronous->non-blocking
+Synchronous->blocking
+thread pool & libuv->c programming ->managing asynchronous I/O
+Event Loop
+
+Modules:
+core Modules->predefined library
+local module->create somewhere use it later
+third party module->download from npm package
